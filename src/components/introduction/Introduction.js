@@ -1,11 +1,12 @@
 import React from 'react';
 import logo from './img/logo.png';
 
+
 const Introduction = () =>
   <section id="intro" className="wrapper style1 fullscreen fade-up">
     <div className="inner">
-      <div class="logo">
-         <img src={logo} alt="Logo"/>
+      <div className="logo">
+         <img src={logo} style={{width:"457px",marginLeft:"250px" }} alt="Logo"/>
       </div>
       <h2>
         Delivering Quality Services to the Home and Businesses of many

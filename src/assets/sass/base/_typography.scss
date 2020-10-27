@@ -92,28 +92,23 @@
 
 	h2 {
 		font-size: 1.75em;
-		font-family: 'Times New Roman', Times, serif;
 		text-align: center;
 	}
 
 	h3 {
 		font-size: 1.1em;
-		font-family: 'Times New Roman', Times, serif;
 	}
 
 	h4 {
 		font-size: 1em;
-		font-family: 'Times New Roman', Times, serif;
 	}
 
 	h5 {
 		font-size: 0.8em;
-		font-family: 'Times New Roman', Times, serif;
 	}
 
 	h6 {
 		font-size: 0.6em;
-		font-family: 'Times New Roman', Times, serif;
 	}
 
 	@include breakpoint('<=small') {
