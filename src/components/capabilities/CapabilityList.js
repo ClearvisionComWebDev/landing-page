@@ -5,34 +5,31 @@ import Capability from './Capability';
 const CapabilityList = () => {
   const CAPABILITIES = [
     {
-      heading: 'Lorem ipsum amet',
-      description: 'Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.',
+      heading: 'CAR applications with Council & Traffic management setups',
+      description: '',
       iconClass: 'fa-code',
     },
     {
-      heading: 'Morem ipsum amet',
-      description: 'Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.',
+      
+      heading: 'Full Project Management of jobs',
+      description: '- design/scope to build/completion of required paperworks',
       iconClass: 'fa-lock',
     },
     {
-      heading: 'Dorem ipsum amet',
-      description: 'Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.',
+      heading: 'Provision of crew and equipment for short and long term works on short notice',
+      description: '',
       iconClass: 'fa-cog',
     },
     {
-      heading: 'Forem ipsum amet',
-      description: 'Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.',
+      heading: 'Carry out civil works',
+      description: <ul>
+      <li>Full concrete and asphalt reinstatements</li>
+      <li>all excavations</li>
+      <li>digs and fixes of faults</li>
+      <li>laying/replacements of ducts</li>
+      <li>Underground Horizontal Drilling</li>
+      </ul>,
       iconClass: 'fa-desktop',
-    },
-    {
-      heading: 'Corem ipsum amet',
-      description: 'Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.',
-      iconClass: 'fa-chain',
-    },
-    {
-      heading: 'Norem ipsum amet',
-      description: 'Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.',
-      iconClass: 'fa-diamond',
     },
   ]
 
