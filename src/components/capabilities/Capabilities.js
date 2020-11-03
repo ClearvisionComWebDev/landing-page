@@ -1,6 +1,10 @@
 import React from 'react';
-import image from "./img/image.png";
 import CapabilityList from './CapabilityList';
+import Carousel from '@brainhubeu/react-carousel';
+import '@brainhubeu/react-carousel/lib/style.css';
+import image1 from "./img/image1.jpg";
+import image2 from "./img/image2.jpg";
+import image3 from "./img/image3.jpg";
 
 const Capabilities = () =>
   <section id="one" className="wrapper style3 fade-up">
@@ -16,13 +20,14 @@ const Capabilities = () =>
        source of services which our customers can feel at ease with.
       </p>
       <div className="features">
-        <CapabilityList />
-      </div>
-        <div style={{position:"relative"}}>
-        <img src={image} style={{width: "90%",paddingLeft: "150px", }} alt="Logo"/> 
+        <CapabilityList /> 
         </div>
-    </div>
+        <Carousel arrows dots centered infinite>
+        <img src={image1} alt={image1}/>
+        <img src={image2} style={{width:"50%"}} alt={image2}/>
+        <img src={image3} style={{width:"90%"}} alt={image3}/>
+      </Carousel>
+      </div>
   </section>
-  
 
 export default Capabilities;
