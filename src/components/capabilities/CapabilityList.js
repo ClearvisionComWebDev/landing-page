@@ -7,18 +7,20 @@ const CapabilityList = () => {
     {
       heading: 'CAR applications with Council & Traffic management setups',
       description: '',
-      iconClass: 'fa-code',
+      iconClass: 'fa-briefcase',
     },
     {
       
       heading: 'Full Project Management of jobs',
-      description: '- design/scope to build/completion of required paperworks',
-      iconClass: 'fa-lock',
+      description: <ul>
+        <li>'-design/scope to build/completion of required paperworks'</li>
+      </ul>,    
+      iconClass: 'fa-users',
     },
     {
       heading: 'Provision of crew and equipment for short and long term works on short notice',
       description: '',
-      iconClass: 'fa-cog',
+      iconClass: 'fa-cogs',
     },
     {
       heading: 'Carry out civil works',
@@ -29,7 +31,7 @@ const CapabilityList = () => {
       <li>laying/replacements of ducts</li>
       <li>Underground Horizontal Drilling</li>
       </ul>,
-      iconClass: 'fa-desktop',
+      iconClass: 'fa-wrench',
     },
   ]
 
