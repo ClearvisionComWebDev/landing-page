@@ -2,9 +2,9 @@ import React from 'react';
 
 
 const Capabilities = () =>
-  <section id="one" className="wrapper style3 fade-up" style={{border:"0.5rem solid #00142e"}}>
+  <section id="one" className="wrapper style3 fade-up" style={{ borderBottom:"5px solid #00142e"}}>
     <div className="inner">
-      <h2>Who Are We</h2>
+      <h2 style={{fontFamily:"Helvetica"}}>WHO ARE WE</h2>
       <p style={{color:"black"}}>
       Clearvision Communications prides itself on consistently delivering quality services to the homes and 
       business of many Kiwis in New Zealand. Our teams are made up of highly experienced technicians who are 

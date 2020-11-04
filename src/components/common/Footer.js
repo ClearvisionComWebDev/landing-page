@@ -3,7 +3,7 @@ import React from 'react';
 import '../../assets/sass/main.scss';
 
 const Footer = () => (
-  <footer id="footer" className="wrapper style1-alt" style={{border:"0.5rem solid #00142e"}}>
+  <footer id="footer" className="wrapper style1-alt">
     <div className="inner">
       <ul className="menu">
         <div style={{textAlign: 'center'}}>
