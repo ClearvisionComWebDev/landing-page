@@ -19,8 +19,8 @@ const ContactForm = () =>
       </div>
       <ul className="actions">
         <li>
-          <a href="/#" className="button submit">
-            Send Message
+          <a href="/#" className="button submit" >
+            <p style={{color:"#00142e"}}>Send Message</p>
           </a>
         </li>
       </ul>

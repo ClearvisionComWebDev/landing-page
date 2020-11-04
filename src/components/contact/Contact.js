@@ -4,7 +4,7 @@ import ContactForm from './ContactForm';
 import ContactInformation from './ContactInformation';
 
 const Contact = () =>
-  <section id="three" className="wrapper style1 fade-up">
+  <section id="four" className="wrapper style1 fade-up" style={{border:"0.5rem solid #00142e"}}>
     <div className="inner">
       <h2>Get in touch</h2>
       <h3>
