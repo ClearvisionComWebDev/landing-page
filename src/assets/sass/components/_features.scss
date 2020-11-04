@@ -10,14 +10,14 @@
 		@include vendor('display', 'flex');
 		@include vendor('flex-wrap', 'wrap');
 		border-radius: _size(border-radius);
-		border: solid 1px _palette(border);
+		border: solid 1px black;
 		background: _palette(border-bg);
 		margin: 0 0 _size(element-margin) 0;
 
 		section {
-			@include padding(3em, 3em, (0.5em, 0, 0, 4em));
+			@include padding(1em, 3em, (0.5em, 0, 0, 1em));
 			width: 50%;
-			border-top: solid 1px _palette(border);
+			border-top: solid 1px black;
 			position: relative;
 
 			&:nth-child(-n + 2) {
@@ -25,21 +25,9 @@
 			}
 
 			&:nth-child(2n) {
-				border-left: solid 1px _palette(border);
+				border-left: solid 1px black;
 			}
 
-			.icon {
-				@include vendor('transition', (
-					'opacity #{_duration(activation) * 0.5} ease',
-					'transform #{_duration(activation) * 0.5} ease'
-				));
-				@include vendor('transition-delay', '1s');
-				@include vendor('transform', 'scale(1)');
-				position: absolute;
-				left: 3em;
-				top: 3em;
-				opacity: 1;
-			}
 
 			@for $i from 1 through _misc(max-features) {
 				&:nth-child(#{$i}) {

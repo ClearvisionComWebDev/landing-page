@@ -1,14 +1,13 @@
 {
-  "name": "gatsby-starter-hyperspace",
+  "name": "clearvision-landing-page",
   "version": "0.0.1",
-  "description": "Gatsby.js V2 starter template based on Hyperspace by HTML5 UP",
+  "description": "A simple landing page for ClearvisionComm",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anubhavsrivastava/gatsby-starter-hyperspace.git"
+    "url": "git+https://github.com/ClearvisionComWebDev/landing-page"
   },
   "author": {
-    "name": "Anubhav Srivastava",
-    "email": "anubhav.srivastava00@gmail.com"
+    "name": "Jullan Quevedo"
   },
   "dependencies": {
     "@brainhubeu/react-carousel": "^1.19.26",
@@ -20,9 +19,11 @@
     "gatsby-source-filesystem": "^2.4.0",
     "node-sass": "^4.13.1",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1",
+    "react-dom": "^16.14.0",
     "react-helmet": "^5.2.1",
     "react-scrollspy": "^3.4.0",
+    "react-slick": "^0.27.12",
+    "slick-carousel": "^1.8.1",
     "smoothscroll-polyfill": "^0.4.4"
   },
   "scripts": {
@@ -42,12 +43,8 @@
   },
   "keywords": [
     "gatsby",
-    "gatsby-starter",
-    "gatsby-starter-hyperspace"
+    "clearvision",
+    "clearvision communications"
   ],
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/anubhavsrivastava/gatsby-starter-hyperspace/issues"
-  },
-  "homepage": "https://github.com/anubhavsrivastava/gatsby-starter-hyperspace#readme"
+  "license": "MIT"
 }
