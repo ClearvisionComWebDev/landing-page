@@ -8,11 +8,10 @@ const CapabilityList = () => {
       heading: 'CAR applications with Council & Traffic management setups',
       description: '',
     },
-    {
-      
+    { 
       heading: 'Full Project Management of jobs',
       description: <ul style={{color:"black"}}>
-        <li>Design/scope to build/completion of required paperworks</li>
+      <li>Design/scope to build/completion of required paperworks</li>
       </ul>,
     },
     {
