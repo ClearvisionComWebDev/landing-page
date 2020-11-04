@@ -8,10 +8,10 @@ import logo5 from './img/image5.png';
 const Features = () => {
 
   return (
-    <section id="three" className="wrapper style2 spotlights" style={{border:"0.5rem solid #00142e"}}>
+    <section id="three" className="wrapper style2 spotlights"  style={{ borderBottom:"5px solid #00142e"}}>
       <div className="inner">
-      <h1 style={{color:"#00142e"}}>Our Clients </h1>
-      <h2>
+      <h1 style={{color:"#00142e",fontFamily:"Helvetica"}}>OUR CLIENTS</h1>
+      <h2 style={{textAlign:"center"}}>
        Providing services to these amazing organisations
       </h2>
 

@@ -1,27 +1,22 @@
 import React from 'react';
 import logo from './img/logo.png';
-
+import image from './img/image1.jpg';
+import scrollTo from 'gatsby-plugin-smoothscroll';
 
 const Introduction = () =>
-  <section id="intro" className="wrapper style1 fullscreen fade-up" style={{border:"0.5rem solid #00142e"}}>
-    <div className="inner">
+  <section id="intro" className="wrapper style1 fullscreen fade-up" style={{backgroundImage: `url(${image})`, borderBottom:"5px solid #00142e"}}>
+      <div className="inner">
       <div className="logo">
-         <img src={logo} style={{width:"457px" }} alt="Logo"/>
+         <img src={logo} style={{width:"457px", marginLeft:"-60px" }} alt="Logo"/>
       </div>
-      <h2>
-        Delivering Quality Services to the Home and Businesses of many
-        Kiwis in New Zealand
+      <h2 style={{color: "white", fontFamily:"Helvetica"}}>
+        Delivering Quality Services to Kiwis Homes and Businesses
        </h2>
         <div>
-          <a href="#one" style={{marginLeft:"-20px"}}>
-          <button style={{backgroundColor:"#00142e"}}>Learn More</button>
-          <a href="#four" style={{marginLeft:"30px"}}>
-          <button style={{backgroundColor:"#00142e"}}>Get in Touch</button>
-          </a>
-          </a>
+          <button  style={{backgroundColor: "transparent"}} onClick={() => scrollTo('#one')}>Learn More</button>
+          <button style={{backgroundColor:"transparent",marginLeft:"30px"}} onClick={() => scrollTo('#four')}>Get in Touch</button>
         </div>
         <div>
-        
         </div>
     </div>
   </section>
