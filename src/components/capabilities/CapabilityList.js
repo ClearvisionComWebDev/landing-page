@@ -5,12 +5,12 @@ import Capability from './Capability';
 const CapabilityList = () => {
   const CAPABILITIES = [
     {
-      heading: 'CAR applications with Council & Traffic management setups',
+      heading: 'CAR applications with Council and Traffic management setups',
       description: '',
     },
     { 
       heading: 'Full Project Management of jobs',
-      description: <ul style={{color:"black"}}>
+      description: <ul>
       <li>Design/scope to build/completion of required paperworks</li>
       </ul>,
     },
@@ -20,7 +20,7 @@ const CapabilityList = () => {
     },
     {
       heading: 'Carry out civil works',
-      description: <ul style={{color:"black"}}>
+      description: <ul>
       <li>Full concrete and asphalt reinstatements</li>
       <li>all excavations</li>
       <li>digs and fixes of faults</li>
