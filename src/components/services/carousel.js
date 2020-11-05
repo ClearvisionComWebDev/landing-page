@@ -35,28 +35,28 @@ export default class SimpleSlider extends Component{
   return (
     <Slider ref={slider => (this.slider = slider)} {...settings}>
        <div>
-        <img src={image1} alt={image1} style={{width:"100%",margin:"auto"}}/>
+        <img src={image1} alt={image1} style={{width:"100%",margin:"auto",boxShadow:"rgba(0,0,0, 1.2) 8px 8px 8px"}}/>
       </div>
       <div>
-      <img src={image2} alt={image2} style={{width:"80%",margin:"auto"}}/>
+      <img src={image2} alt={image2} style={{width:"80%",margin:"auto",boxShadow:"rgba(0,0,0, 1.2) 8px 8px 8px"}}/>
       </div>
       <div>
-      <img src={image3} alt={image3} style={{width:"100%",margin:"auto"}}/>
+      <img src={image3} alt={image3} style={{width:"100%",margin:"auto",boxShadow:"rgba(0,0,0, 1.2) 8px 8px 8px"}}/>
       </div>
       <div>
-      <img src={image4} alt={image4} style={{width:"80%",margin:"auto"}}/>
+      <img src={image4} alt={image4} style={{width:"80%",margin:"auto",boxShadow:"rgba(0,0,0, 1.2) 8px 8px 8px"}}/>
       </div>
       <div>
-      <img src={image5} alt={image5} style={{width:"80%",margin:"auto"}}/>
+      <img src={image5} alt={image5} style={{width:"80%",margin:"auto",boxShadow:"rgba(0,0,0, 1.2) 8px 8px 8px"}}/>
       </div>
       <div>
-      <img src={image6} alt={image6} style={{width:"80%",margin:"auto"}}/>
+      <img src={image6} alt={image6} style={{width:"80%",margin:"auto",boxShadow:"rgba(0,0,0, 1.2) 8px 8px 8px"}}/>
       </div>
       <div>
-      <img src={image7} alt={image7} style={{width:"100%",margin:"auto"}}/>
+      <img src={image7} alt={image7} style={{width:"100%",margin:"auto",boxShadow:"rgba(0,0,0, 1.2) 8px 8px 8px"}}/>
       </div>
       <div>
-      <img src={image8} alt={image8} style={{width:"80%",margin:"auto"}}/>
+      <img src={image8} alt={image8} style={{width:"80%",margin:"auto",boxShadow:"rgba(0,0,0, 1.2) 8px 8px 8px"}}/>
       </div>
     </Slider>
   );

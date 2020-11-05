@@ -4,14 +4,15 @@ import logo2 from './img/image2.png';
 import logo3 from './img/image3.png';
 import logo4 from './img/image4.png';
 import logo5 from './img/image5.png';
+import background from './img/background.jpg';
 
 const Features = () => {
 
   return (
-    <section id="three" className="wrapper style2 spotlights"  style={{ borderBottom:"5px solid #00142e"}}>
+    <section id="three" className="wrapper style2 spotlights"  style={{ borderBottom:"5px solid #00142e", backgroundImage: `url(${background})`,backgroundSize:"100% 100%"}}>
       <div className="inner">
-      <h1 style={{color:"#00142e",fontFamily:"Helvetica"}}>OUR CLIENTS</h1>
-      <h2 style={{textAlign:"center"}}>
+      <h1 style={{color:"#3098b3",fontFamily:"Helvetica",padding:"5px",backgroundColor:""}}>OUR CLIENTS</h1>
+      <h2 style={{color:"white",textAlign:"center",backgroundColor:"#071D3B", padding:"10px",marginRight:"100px",marginLeft:"100px",borderRadius:"1rem"}}>
        Providing services to these amazing organisations
       </h2>
 
