@@ -31,7 +31,7 @@ export default class SimpleSlider extends Component{
   return (
     <Slider ref={slider => (this.slider = slider)} {...settings}>
        <div>
-        <img src={image1} alt={image1} style={{width:"100%",margin:"auto",boxShadow:"rgba(0,0,0, 1.2) 8px 8px 8px"}}/>
+        <img src={image1} alt={image1} style={{width:"80%",margin:"auto",boxShadow:"rgba(0,0,0, 1.2) 8px 8px 8px"}}/>
       </div>
       <div>
       <img src={image2} alt={image2} style={{width:"80%",margin:"auto",boxShadow:"rgba(0,0,0, 1.2) 8px 8px 8px"}}/>
@@ -40,7 +40,7 @@ export default class SimpleSlider extends Component{
       <img src={image3} alt={image3} style={{width:"100%",margin:"auto",boxShadow:"rgba(0,0,0, 1.2) 8px 8px 8px"}}/>
       </div>
       <div>
-      <img src={image7} alt={image7} style={{width:"100%",margin:"auto",boxShadow:"rgba(0,0,0, 1.2) 8px 8px 8px"}}/>
+      <img src={image7} alt={image7} style={{width:"80%",margin:"auto",boxShadow:"rgba(0,0,0, 1.2) 8px 8px 8px"}}/>
       </div>
     </Slider>
   );
