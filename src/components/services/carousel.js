@@ -44,19 +44,19 @@ export default class SimpleSlider extends Component{
       <img src={image3} alt={image3} style={{width:"100%",margin:"auto",boxShadow:"rgba(0,0,0, 1.2) 8px 8px 8px"}}/>
       </div>
       <div>
-      <img src={image4} alt={image4} style={{width:"80%",margin:"auto",boxShadow:"rgba(0,0,0, 1.2) 8px 8px 8px"}}/>
+      <img src={image4} alt={image4} style={{width:"70%",margin:"auto",boxShadow:"rgba(0,0,0, 1.2) 8px 8px 8px"}}/>
       </div>
       <div>
-      <img src={image5} alt={image5} style={{width:"80%",margin:"auto",boxShadow:"rgba(0,0,0, 1.2) 8px 8px 8px"}}/>
+      <img src={image5} alt={image5} style={{width:"70%",margin:"auto",boxShadow:"rgba(0,0,0, 1.2) 8px 8px 8px"}}/>
       </div>
       <div>
-      <img src={image6} alt={image6} style={{width:"80%",margin:"auto",boxShadow:"rgba(0,0,0, 1.2) 8px 8px 8px"}}/>
+      <img src={image6} alt={image6} style={{width:"70%",margin:"auto",boxShadow:"rgba(0,0,0, 1.2) 8px 8px 8px"}}/>
       </div>
       <div>
       <img src={image7} alt={image7} style={{width:"100%",margin:"auto",boxShadow:"rgba(0,0,0, 1.2) 8px 8px 8px"}}/>
       </div>
       <div>
-      <img src={image8} alt={image8} style={{width:"80%",margin:"auto",boxShadow:"rgba(0,0,0, 1.2) 8px 8px 8px"}}/>
+      <img src={image8} alt={image8} style={{width:"70%",margin:"auto",boxShadow:"rgba(0,0,0, 1.2) 8px 8px 8px"}}/>
       </div>
     </Slider>
   );

@@ -9,7 +9,7 @@ const ContactForm = () =>
           <input type="text" placeholder="Your Name"  name="name" id="name" style={{boxShadow:"rgba(0,0,0, 1.2) 0px 0px 8px"}}/>
         </div>
         <div className="field half">
-          <label htmlFor="email">Email</label>
+          <label htmlFor="email" style={{color:"black"}}>Email</label>
           <input type="text" placeholder="Enter your email" name="email" id="email" style={{boxShadow:"rgba(0,0,0, 1.2) 0px 0px 8px"}}/>
         </div>
         <div className="field">
