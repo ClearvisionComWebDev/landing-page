@@ -5,8 +5,9 @@ import scrollTo from 'gatsby-plugin-smoothscroll';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-AOS.init();
+
 const Introduction = () =>
+AOS.init();
   <section id="intro" className="wrapper style1 fullscreen fade-up" style={{backgroundImage: `url(${image})`, borderBottom:"5px solid #00142e"}}>
       <div className="inner">
       <div className="logo">
