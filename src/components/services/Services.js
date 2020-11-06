@@ -5,8 +5,9 @@ import background from "./img/background.jpg";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-AOS.init();
+
 const Services = () => {
+    AOS.init();
     return (
         <section id="two" style={{backgroundImage: `url(${background})`,backgroundSize:"100% 100%",borderBottom:"5px solid #00142e"}} classname="wrapper style2 spotlights">
         <div classname="inner" style={{padding:"40px"}}>

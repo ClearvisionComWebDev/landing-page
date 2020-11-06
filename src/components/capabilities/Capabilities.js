@@ -4,8 +4,9 @@ import image1 from "./img/image1.jpg";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-AOS.init();
+
 const Capabilities = () =>
+  AOS.init();
 
   <section id="one" className="wrapper style3 fade-up" style={{ borderBottom:"5px solid #00142e",backgroundImage: `url(${background})`,backgroundSize:"100% 100%"}}>
     <div className="inner">
@@ -32,7 +33,7 @@ const Capabilities = () =>
     data-aos-easing="ease-in-out"
     data-aos-mirror="true"
     data-aos-once="false"
-    data-aos-anchor-placement="top-center">>
+    data-aos-anchor-placement="top-center">
       <p style={{color:"black"}}>Here at Clearvision Communications we consider <br/>ourselves to be a top-class provider of civil works,<br/>
        making sure that all work involved is handled by<br/> nobody but ourselves. Our business is locally owned <br/>
        and operated which is something we consider to be <br/>part our success and image, striving to be a trustworthy 

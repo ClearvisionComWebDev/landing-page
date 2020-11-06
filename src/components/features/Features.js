@@ -8,9 +8,9 @@ import background from './img/background.jpg';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-AOS.init();
-const Features = () => {
 
+const Features = () => {
+  AOS.init();
   return (
     <section id="three" className="wrapper style2 spotlights"  style={{ borderBottom:"5px solid #00142e", backgroundImage: `url(${background})`,backgroundSize:"100% 100%"}}>
       <div className="inner">
