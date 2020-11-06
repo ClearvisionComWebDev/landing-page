@@ -1,5 +1,4 @@
 import React from 'react';
-
 import Layout   from '../components/common/layout';
 import Footer   from '../components/common/Footer';
 import Sidebar  from '../components/common/Sidebar';
