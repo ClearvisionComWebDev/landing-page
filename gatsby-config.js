@@ -1,14 +1,14 @@
 module.exports = {
   pathPrefix: `/gatsby-starter-hyperspace/`, // This path is subpath of your hosting https://domain/portfolio
   siteMetadata: {
-    title: 'Clearvision Communications',
+    title: 'Clearvision',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Clearvision Communications',
+        name: 'Clearvision',
         short_name: 'starter',
         start_url: '/',
         background_color: '#663399',
