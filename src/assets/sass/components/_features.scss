@@ -10,43 +10,33 @@
 		@include vendor('display', 'flex');
 		@include vendor('flex-wrap', 'wrap');
 		border-radius: _size(border-radius);
-		border: solid 2px black;
 		margin: 0 0 _size(element-margin) 0;
 
 		section {
 			@include padding(1em, 3em, (0.5em, 0, 0, 1em));
-			width: 50%;
-			background-color:rgba(1, 20, 44, 0.815);
-			border-top: solid 2px black;
+			width: 40%;
+			background-color:rgba(1, 20, 44, 0.7);
 			position: relative;
+			align-items: center;
+			margin-left: 100px;
+			margin-bottom: 40px;
 
 			&:nth-child(-n + 2) {
 				border-top-width: 0;
+				margin-left: 100px;
+				margin-bottom: 40px;
+				padding-left: 20px;
 			}
 
 			&:nth-child(2n) {
-				border-left: solid 2px black;
-			}
-
-
-			@for $i from 1 through _misc(max-features) {
-				&:nth-child(#{$i}) {
-					.icon {
-						@include vendor('transition-delay', '#{(_duration(transition) * 0.75 * $i)}');
-					}
-				}
+				margin-left: 40px;
+				margin-bottom: 40px;
 			}
 		}
-
-		&.inactive {
-			section {
-				.icon {
-					@include vendor('transform', 'scale(0.5)');
-					opacity: 0;
-				}
-			}
+		section:hover
+		{
+			background-color: #071D3B;
 		}
-
 		@include breakpoint('<=medium') {
 			display: block;
 
@@ -57,6 +47,7 @@
 
 				&:first-child {
 					border-top-width: 0 !important;
+					
 				}
 			}
 		}
