@@ -5,7 +5,7 @@ import image1 from "./img/image1.jpg";
 const Capabilities = () =>
   <section id="one" className="wrapper style3 fade-up" style={{ borderBottom:"5px solid #00142e",backgroundImage: `url(${background})`,backgroundSize:"cover"}}>
     <div className="inner">
-      <h1 style={{fontFamily:"Helvetica",color:"#00142e",textAlign:"left"}}>WHO ARE WE</h1>
+      <h1 style={{fontFamily:"Helvetica",color:"black",textAlign:"left"}}>WHO ARE WE</h1>
      
       <p style={{color:"black",textAlign:"justify"}}>
       Clearvision prides itself on consistently delivering quality services to the homes and 

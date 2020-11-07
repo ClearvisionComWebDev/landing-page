@@ -16,7 +16,7 @@ const CapabilityList = () => {
     },
     {
       heading: 'Carry out civil works',
-      description: <ul>
+      description:<ul>
       <li>Full concrete and asphalt reinstatements</li>
       <li>all excavations</li>
       <li>digs and fixes of faults</li>
