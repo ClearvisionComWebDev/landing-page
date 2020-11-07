@@ -3,22 +3,27 @@ import background from "./img/background.jpg";
 import image1 from "./img/image1.jpg";
 
 const Capabilities = () =>
-  <section id="one" className="wrapper style3 fade-up" style={{ borderBottom:"5px solid #00142e",backgroundImage: `url(${background})`,backgroundSize:"100% 100%"}}>
+  <section id="one" className="wrapper style3 fade-up" style={{ borderBottom:"5px solid #00142e",backgroundImage: `url(${background})`,backgroundSize:"cover"}}>
     <div className="inner">
       <h1 style={{fontFamily:"Helvetica",color:"#00142e",textAlign:"left"}}>WHO ARE WE</h1>
-
-      <p style={{color:"black",marginLeft:"-20px",textAlign:"justify"}}>
-      Clearvision prides itself on consistently delivering quality services <br/>to the homes and 
-      business of many Kiwis in New Zealand. <br/>Our teams are made up of highly experienced technicians who<br/> are 
-      confident in their ability to solve issues expeditiously and <br/>maintain the satisfaction expected by our 
-      customers. </p>
-      </div>
-      <p style={{color:"black",marginLeft:"50px",textAlign:"justify"}}>Here at Clearvision we consider ourselves to be a top-class <br/>provider of civil works,
-       making sure that all work involved  <br/>is handled by nobody but ourselves. Our business is locally <br/> owned 
-       and operated which is something we consider to be <br/>part our success and image, striving to be a trustworthy 
-       <br/>source of services which our customers can feel at ease with.
+     
+      <p style={{color:"black",textAlign:"justify"}}>
+      Clearvision prides itself on consistently delivering quality services to the homes and 
+      business of many Kiwis in New Zealand. Our teams are made up of highly experienced technicians who are 
+      confident in their ability to solve issues expeditiously and maintain the satisfaction expected by our 
+      customers.
       </p>
-      <img src={image1} alt={image1} style={{width:"40%",position:"absolute",top: "210px", right:"10%",boxShadow:"rgba(0,0,0, 1.2) 8px 8px 8px"}}/> 
+     
+      <p style={{color:"black",textAlign:"justify"}}>Here at Clearvision we consider ourselves to be a top-class provider of civil works,
+       making sure that all work involved is handled by nobody but ourselves. Our business is locally owned 
+       and operated which is something we consider to be part our success and image, striving to be a trustworthy 
+       source of services which our customers can feel at ease with.
+      </p>
+  
+      <h3 style={{color: "black"}}>Example of our HOTMIX Works</h3>
+      <img src={image1} alt={image1} style={{width:"100%",position:"relative",boxShadow:"rgba(0,0,0, 1.2) 8px 8px 8px",display:"flex"}}/> 
+     
+      </div>
   </section>
 
 export default Capabilities;

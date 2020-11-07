@@ -60,7 +60,7 @@
 			@include vendor('flex-direction', 'column');
 			@include vendor('justify-content', 'center');
 			min-height: 100vh;
-
+			
 			body.is-ie & {
 				height: 100vh;
 			}
@@ -137,3 +137,4 @@
 			}
 		}
 	}
+	

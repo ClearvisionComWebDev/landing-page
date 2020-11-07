@@ -13,7 +13,7 @@ const Features = () => {
       <h1 style={{color:"#3098b3",fontFamily:"Helvetica",padding:"5px",backgroundColor:""}}>OUR CLIENTS</h1>
 
     
-      <h2 style={{color:"white",textAlign:"center",backgroundColor:"rgb(7, 29, 59,0.7)", padding:"10px",marginRight:"100px",marginLeft:"100px",borderRadius:"1rem"}}>
+      <h2 style={{color:"white",textAlign:"center",backgroundColor:"rgb(7, 29, 59,0.7)", padding:"10px",marginRight:"100px",marginLeft:"100px",borderRadius:"0.5rem",boxShadow:"0 2px 25px rgba(0,0,0,1.2)"}}>
        Providing services to these amazing organisations
       </h2>
       

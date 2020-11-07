@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@brainhubeu/react-carousel": "^1.19.26",
+    "@material-ui/core": "^4.11.0",
     "gatsby": "^2.20.29",
     "gatsby-plugin-manifest": "^2.3.6",
     "gatsby-plugin-offline": "^3.1.4",
@@ -44,8 +45,7 @@
   },
   "keywords": [
     "gatsby",
-    "clearvision",
-    "clearvision communications"
+    "clearvision"
   ],
   "license": "MIT"
 }

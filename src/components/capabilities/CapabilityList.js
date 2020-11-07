@@ -4,10 +4,6 @@ import Capability from './Capability';
 
 const CapabilityList = () => {
   const CAPABILITIES = [
-    {
-      heading: 'CAR applications with Council and Traffic management setups',
-      description: '',
-    },
     { 
       heading: 'Full Project Management of jobs',
       description: <ul>
@@ -15,7 +11,7 @@ const CapabilityList = () => {
       </ul>,
     },
     {
-      heading: 'Provision of crew and equipment for short and long term works on short notice',
+      heading: 'CAR applications with Council and Traffic management setups',
       description: '',
     },
     {
@@ -28,8 +24,12 @@ const CapabilityList = () => {
       <li>Underground Horizontal Drilling</li>
       </ul>,
     },
+  
+    {
+      heading: 'Provision of crew and equipment for short and long term works on short notice',
+      description: '',
+    }, 
   ]
-
   const [capabilities] = React.useState(CAPABILITIES);
 
   return (

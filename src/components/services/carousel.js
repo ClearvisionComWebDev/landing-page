@@ -11,33 +11,30 @@ export default class SimpleSlider extends Component{
   constructor(props) {
     super(props);
     this.play = this.play.bind(this);
-    this.pause = this.pause.bind(this);
   }
   play() {
     this.slider.slickPlay();
   }
-  pause() {
-    this.slider.slickPause();
-  }
     render() {
       const settings = {
       dots: true,
+      draggable: true,
       infinite: true,
        slidesToShow: 3,
        slidesToScroll: 1,
        autoplay: true,
-       autoplaySpeed: 2000
+       autoplaySpeed: 1500
     };
   return (
     <Slider ref={slider => (this.slider = slider)} {...settings}>
        <div>
-        <img src={image1} alt={image1} style={{width:"80%",margin:"auto",boxShadow:"rgba(0,0,0, 1.2) 8px 8px 8px"}}/>
+        <img src={image1} alt={image1} style={{width:"100%",margin:"auto",boxShadow:"rgba(0,0,0, 1.2) 8px 8px 8px"}}/>
       </div>
       <div>
       <img src={image2} alt={image2} style={{width:"80%",margin:"auto",boxShadow:"rgba(0,0,0, 1.2) 8px 8px 8px"}}/>
       </div>
       <div>
-      <img src={image3} alt={image3} style={{width:"100%",margin:"auto",boxShadow:"rgba(0,0,0, 1.2) 8px 8px 8px"}}/>
+      <img src={image3} alt={image3} style={{width:"80%",margin:"auto",boxShadow:"rgba(0,0,0, 1.2) 8px 8px 8px"}}/>
       </div>
       <div>
       <img src={image7} alt={image7} style={{width:"80%",margin:"auto",boxShadow:"rgba(0,0,0, 1.2) 8px 8px 8px"}}/>
