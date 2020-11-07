@@ -7,7 +7,7 @@ const Footer = () => (
     <div className="inner">
       <ul className="menu">
         <div style={{textAlign: 'center'}}>
-        <li style={{color: "white"}}>&copy; 2020 Research and Development TeamClearVision All rights reserved.</li>
+        <li style={{color: "white"}}>&copy; 2020 Research and Development TeamClearvision All rights reserved.</li>
         </div>
       </ul>
     </div>

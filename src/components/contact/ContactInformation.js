@@ -2,7 +2,7 @@ import React from "react";
 
 const ContactInformation = () =>
   <section>
-    <ul className="contact">
+    <ul className="contact" style={{textAlign:"right"}}>
       <li>
         <h3 style={{color:"black"}}>Address</h3>
         <span style={{color:"#00142e"}}>
