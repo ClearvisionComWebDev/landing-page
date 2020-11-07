@@ -24,8 +24,7 @@
 		font-size: 100%;
 		font: inherit;
 		vertical-align: baseline;
-	}
-
+	
 	article, aside, details, figcaption, figure,
 	footer, header, hgroup, menu, nav, section {
 		display: block;
@@ -33,10 +32,11 @@
 
 	body {
 		line-height: 1;
+		background-color: #071D3B;
 	}
 
-	ol, ul {
-		list-style:none;
+	ol, ul, li{
+		padding-bottom: 5px;
 	}
 
 	blockquote,	q {
@@ -73,4 +73,5 @@
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
+	}
 	}
